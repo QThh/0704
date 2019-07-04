@@ -56,11 +56,12 @@ void backward()
   digitalWrite(9,LOW);
   digitalWrite(10,HIGH);
   while(1)
-{
+  {
     digitalWrite(2, HIGH);
     delay(250);
     digitalWrite(2, LOW);
     delay(250);
+  }
 }
 void right()
 {
