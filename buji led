@@ -24,8 +24,8 @@ void loop()
             left();
             break;
        case 'r':
-  			right();
-       		break;
+  			    right();
+       		  break;
        case 's':
             stop();
             break;
